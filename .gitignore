@@ -1,0 +1,63 @@
+##############################
+# 🌸 BACKEND (Spring Boot)
+##############################
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Maven ###
+.mvn/
+*.log
+
+### Application Config ###
+application.properties
+application.yml
+
+##############################
+# ⚛️ FRONTEND (React)
+##############################
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.next/
+frontend/.env
+frontend/.DS_Store
+
+##############################
+# 🧠 GENERAL
+##############################
+.DS_Store
+.env
+logs/
+*.log
+
